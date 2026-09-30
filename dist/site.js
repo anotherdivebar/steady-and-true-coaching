@@ -1,0 +1,10 @@
+const toggle=document.querySelector('.menu-toggle');
+const nav=document.querySelector('#main-nav');
+toggle?.addEventListener('click',()=>{const open=toggle.getAttribute('aria-expanded')!=='true';toggle.setAttribute('aria-expanded',String(open));nav.classList.toggle('open',open)});
+document.addEventListener('keydown',e=>{if(e.key==='Escape'&&toggle?.getAttribute('aria-expanded')==='true'){toggle.setAttribute('aria-expanded','false');nav.classList.remove('open');toggle.focus()}});
+const form=document.querySelector('#reflection-form');
+const status=document.querySelector('#reflection-status');
+function getNotes(){const values=new FormData(form);return `MY STARTING POINT\nSteady & True — Josh Barbee\n\nFocus: ${values.get('focus')}\n\nWhat keeps coming up in my relationships?\n${values.get('pattern').trim()||'(Not answered)'}\n\nWhat would I like to do differently?\n${values.get('change').trim()||'(Not answered)'}\n\nOne small step I could take this week:\n${values.get('step').trim()||'(Not answered)'}\n`;}
+function hasNotes(){if([...form.querySelectorAll('textarea')].some(field=>field.value.trim()))return true;status.textContent='Add a thought to at least one question before saving or copying.';form.querySelector('textarea').focus();return false;}
+form?.addEventListener('submit',event=>{event.preventDefault();if(!hasNotes())return;const blob=new Blob([getNotes()],{type:'text/plain;charset=utf-8'});const url=URL.createObjectURL(blob);const link=document.createElement('a');link.href=url;link.download='my-steady-and-true-reflection.txt';document.body.append(link);link.click();link.remove();setTimeout(()=>URL.revokeObjectURL(url),1000);status.textContent='Your download has started. Your reflection has not been sent to anyone.';});
+document.querySelector('#copy-reflection')?.addEventListener('click',async()=>{if(!hasNotes())return;try{await navigator.clipboard.writeText(getNotes());status.textContent='Copied to your clipboard. Paste your notes somewhere private.';}catch{status.textContent='Copying isn’t available in this browser. Use “Save my reflection” to download your notes.';}});
