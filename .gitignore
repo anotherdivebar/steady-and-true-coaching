@@ -1,6 +1,7 @@
 node_modules/
 .sites-runtime/
 .openai/
+.vercel/
 .env
 .env.*
 !.env.example
