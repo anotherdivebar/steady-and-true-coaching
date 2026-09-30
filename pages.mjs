@@ -7,10 +7,13 @@ export default {
     body: `
       <section class="page-hero"><p class="eyebrow">WHAT I BELIEVE</p><h1>Same worth.<br><em>Different job.</em></h1><p class="lead">The Book sets the standard. The man answers for how he lives it.</p></section>
 
-      <section class="section philosophy">
+      <section class="section philosophy photo-story">
+        <div>
         <p class="eyebrow">THE STEADY &amp; TRUE PHILOSOPHY</p>
         <h2>Put the weight<br>on your own back.</h2>
         <div class="philosophy-copy"><p>A man who will not decide trains a woman to run him. Then he calls her controlling. We start with the man: his word, his week, his mouth. She can tell him the plan is wrong. She does not take the call because he got scared. Same worth. Different job. If he wants heat, he puts the weight back on his own back. We do not save wives. We build men a house can live under.</p></div>
+        </div>
+        <figure class="editorial-photo together-photo"><img src="/assets/photos/together-1120.webp" srcset="/assets/photos/together-640.webp 640w, /assets/photos/together-1120.webp 1120w" sizes="(max-width: 760px) 86vw, 36vw" width="1120" height="1990" alt="Josh and a woman standing close together against a stone wall." loading="lazy" decoding="async"></figure>
       </section>
 
       <section class="section focus-section">
@@ -37,8 +40,8 @@ export default {
     body: `
       <section class="page-hero"><p class="eyebrow">ONE-TO-ONE WITH JOSH BARBEE</p><h1>You talk.<br><em>Then you do the work.</em></h1><p class="lead">One thing this week. Next time, we check if you did it.</p></section>
 
-      <section class="section two-column">
-        <div><p class="eyebrow">HOW WE WORK</p><h2>No unlimited<br>processing.</h2></div>
+      <section class="section two-column coaching-process">
+        <div><p class="eyebrow">HOW WE WORK</p><h2>No unlimited<br>processing.</h2><figure class="editorial-photo training-photo"><img src="/assets/photos/training-720.webp" srcset="/assets/photos/training-480.webp 480w, /assets/photos/training-720.webp 720w" sizes="(max-width: 760px) 86vw, 36vw" width="720" height="1280" alt="Josh and a training partner at the gym." loading="lazy" decoding="async"></figure></div>
         <div class="steps">
           <article class="step"><div><h3>You tell the truth.</h3><p>What happened? What did you do? What are you putting off? We start there.</p></div></article>
           <article class="step"><div><h3>You leave with one thing.</h3><p>Something you will do this week. A clear action with a deadline.</p></div></article>

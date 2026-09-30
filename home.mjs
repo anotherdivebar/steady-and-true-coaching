@@ -2,7 +2,7 @@ export default {
   title: 'Coaching for Men Who Will Lead a House',
   description: 'Steady & True with Josh Barbee. Christian coaching for men who will lead a house. His word, his week, his mouth. We start with the man.',
   body: `
-    <section class="hero">
+    <section class="hero portrait-hero">
       <div class="hero-copy">
         <p class="eyebrow light">COACHING FOR MEN WHO WILL LEAD A HOUSE</p>
         <h1>A house has a head.<br><em>I train the man first.</em></h1>
@@ -11,7 +11,10 @@ export default {
         <a class="text-link pale" href="/approach/">What I believe</a>
         <div class="hero-signoff"><span class="mini-mark" aria-hidden="true">S&amp;T</span><span>JOSH BARBEE<br>KEEP YOUR WORD.</span></div>
       </div>
-      <div class="hero-photo" aria-hidden="true"></div>
+      <figure class="editorial-photo hero-portrait">
+        <img src="/assets/photos/josh-portrait-1280.webp" srcset="/assets/photos/josh-portrait-640.webp 640w, /assets/photos/josh-portrait-1280.webp 1280w" sizes="(max-width: 760px) 100vw, 45vw" width="1280" height="1707" alt="Josh Barbee seated against a concrete wall." fetchpriority="high">
+        <figcaption>JOSH BARBEE <span>STEADY &amp; TRUE</span></figcaption>
+      </figure>
     </section>
 
     <section class="section introduction">
@@ -28,9 +31,9 @@ export default {
       </div>
     </section>
 
-    <section class="section two-column fatherhood">
-      <div><p class="eyebrow">FATHERHOOD</p><h2>The boy copies<br>your night.</h2></div>
-      <div><p>What you do after work teaches him. Your phone. Your temper. Your word to his mother.</p><p>Give him something worth repeating.</p></div>
+    <section class="section fatherhood photo-story">
+      <figure class="editorial-photo family-photo"><img src="/assets/photos/fatherhood-750.webp" srcset="/assets/photos/fatherhood-480.webp 480w, /assets/photos/fatherhood-750.webp 750w" sizes="(max-width: 760px) 86vw, 36vw" width="750" height="1000" alt="Josh and a young boy sharing a playful moment in a mirror." loading="lazy" decoding="async"></figure>
+      <div class="story-copy"><p class="eyebrow">FATHERHOOD</p><h2>The boy copies<br>your night.</h2><p>What you do after work teaches him. Your phone. Your temper. Your word to his mother.</p><p>Give him something worth repeating.</p></div>
     </section>
 
     <section class="quote-band account-line"><p>You will stand there when God asks who ran it.</p><span>HEADSHIP MEANS YOU ANSWER.</span></section>
