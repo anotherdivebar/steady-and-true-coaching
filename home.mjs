@@ -1,4 +1,7 @@
-<!doctype html><html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><meta name="theme-color" content="#1d211e"><meta name="description" content="Steady & True with Josh Barbee. Christian coaching for men who will lead a house. His word, his week, his mouth. We start with the man."><title>Coaching for Men Who Will Lead a House | Steady &amp; True</title><link rel="icon" type="image/svg+xml" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 40 40'%3E%3Crect width='40' height='40' rx='1' fill='%231d211e'/%3E%3Ctext x='20' y='28' text-anchor='middle' fill='%23d4a56a' font-family='Arial' font-weight='bold' font-size='29'%3ES%3C/text%3E%3C/svg%3E"><link rel="stylesheet" href="/style.css"><script src="/site.js" defer></script></head><body><a class="skip-link" href="#main">Skip to content</a><header class="site-header"><a class="brand" href="/" aria-label="Steady and True home"><span class="brand-mark" aria-hidden="true">S&T</span><span>Steady &amp; True<small>COACHING WITH JOSH BARBEE</small></span></a><button class="menu-toggle" aria-expanded="false" aria-controls="main-nav">Menu <span aria-hidden="true">☰</span></button><nav id="main-nav" aria-label="Main navigation"><a href="/" aria-current="page">Home</a><a href="/approach/">Our approach</a><a href="/coaching/">Coaching</a><a class="button header-button" href="/start/">Start here</a></nav></header><main id="main">
+export default {
+  title: 'Coaching for Men Who Will Lead a House',
+  description: 'Steady & True with Josh Barbee. Christian coaching for men who will lead a house. His word, his week, his mouth. We start with the man.',
+  body: `
     <section class="hero">
       <div class="hero-copy">
         <p class="eyebrow light">COACHING FOR MEN WHO WILL LEAD A HOUSE</p>
@@ -38,4 +41,5 @@
     </section>
 
     <section class="cta"><div><p class="eyebrow">START WITH YOURSELF</p><h2>Keep one small rule.</h2><p>Pick the thing you will do this week. Then do it.</p></div><a class="button lime" href="/start/">Start here</a></section>
-  </main><footer><div><a class="footer-brand" href="/">Steady &amp; True</a><p>We start with the man.</p></div><div class="footer-links"><a href="/approach/">Our approach</a><a href="/coaching/">Coaching</a><a href="/start/">Start here</a></div><div class="footer-bottom"><span>© 2026 Steady &amp; True · Josh Barbee</span><span>His word. His week. His house.</span></div></footer></body></html>
+  `
+};

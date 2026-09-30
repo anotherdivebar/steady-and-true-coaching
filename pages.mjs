@@ -1,19 +1,96 @@
-const cta=`<section class="cta"><div><p class="eyebrow">START WITH YOURSELF</p><h2>Do the work. Make it count.</h2><p>Get clear on what needs to change. Choose your next step.</p></div><a class="button lime" href="/start/">Take the first step</a></section>`;
+const cta = `<section class="cta"><div><p class="eyebrow">START WITH YOURSELF</p><h2>Keep one small rule.</h2><p>Pick the thing you will do this week. Then do it.</p></div><a class="button lime" href="/start/">Start here</a></section>`;
+
 export default {
-approach:{title:'Our Approach',description:'Healthy masculinity grounded in self-awareness, mutual respect, emotional honesty, and accountability. Discover the Steady & True approach.',body:`
-<section class="page-hero"><p class="eyebrow">OUR APPROACH</p><h1>Strength.<br><em>With something behind it.</em></h1><p class="lead">Know who you are. Treat people well. Take responsibility. That’s the kind of strength we work on here.</p></section>
-<section class="section two-column"><div><p class="eyebrow">WHAT WE MEAN BY HEALTHY MASCULINITY</p><h2>A backbone.<br>And an open mind.</h2></div><div><p>Hold your ground without shutting someone down. Say what you need without making demands. Own a mistake without making excuses. Ask for help when you need it.</p><p>You decide what being a man means in your own life. Here, we put respect, honesty, and responsibility into practice. Both people’s needs, choices, and dignity matter.</p><p>That starts with being honest about your own part—and recognizing what is outside your control.</p></div></section>
-<section class="section soft-section"><div class="section-heading"><div><p class="eyebrow">FOUR PRINCIPLES. EVERYDAY PRACTICE.</p><h2>The standards we work by.</h2></div></div><div class="principles"><article class="principle"><span class="number">01 / SELF-AWARENESS</span><h3>Know yourself. Check your reaction.</h3><p>Notice what happens when you feel criticized, dismissed, or disconnected. Learn to name the feeling and choose what you do next.</p></article><article class="principle"><span class="number">02 / MUTUAL RESPECT</span><h3>Give respect. Hold your boundaries.</h3><p>Your needs matter. So do theirs. Practice consent, clear boundaries, and conversations where disagreement doesn’t erase respect.</p></article><article class="principle"><span class="number">03 / EMOTIONAL HONESTY</span><h3>Say what’s actually going on.</h3><p>Move beyond “I’m fine.” Find words for disappointment, fear, care, and uncertainty without making someone else responsible for fixing them.</p></article><article class="principle"><span class="number">04 / ACCOUNTABILITY</span><h3>Own it. Then do something about it.</h3><p>Own your impact, make a meaningful repair, and follow through. Build trust through consistent choices in ordinary moments.</p></article></div></section>
-<section class="section two-column"><div><p class="eyebrow">A SMALL SHIFT TO TRY</p><h2>From defending<br>to understanding.</h2></div><div><h3>“I want to understand what that was like for you.”</h3><p>In your next disagreement, try listening long enough to summarize the other person’s experience before explaining your own. Ask whether you understood them accurately.</p><p>Understanding someone’s experience doesn’t require agreeing with every point. It gives the conversation a place to begin.</p></div></section>
-<section class="quote-band"><p>Have the backbone to be honest.<br>And the sense to keep learning.</p><span>STEADY &amp; TRUE</span></section>
-<section class="section wide-statement"><p class="eyebrow">COME AS YOU ARE</p><h2>Your life. Your starting point.</h2><p>This work welcomes men across backgrounds, sexual orientations, and relationship stages. Being single, partnered, starting over, or figuring things out gives you a starting point for growth.</p></section>${cta}`},
-coaching:{title:'Coaching with Josh Barbee',description:'Explore one-to-one relationship coaching with Josh Barbee. Work on communication, boundaries, connection, and turning intentions into action.',body:`
-<section class="page-hero"><p class="eyebrow">ONE-TO-ONE COACHING WITH JOSH BARBEE</p><h1>Straight talk.<br><em>Work that goes with you.</em></h1><p class="lead">One-to-one coaching for men who want to handle hard conversations, build trust, and be more present with the people who matter.</p></section>
-<section class="section two-column"><div><p class="eyebrow">BRING WHAT’S REAL</p><h2>Same argument?<br>Start there.</h2></div><div><p>Bring the conversation you keep avoiding. The argument that keeps repeating. The relationship you don’t want to drift out of. We start with what’s actually happening in your life.</p><ul class="list-clean"><li>Communicating without shutting down or escalating</li><li>Setting boundaries with clarity and care</li><li>Building confidence in dating and partnership</li><li>Taking responsibility and repairing after conflict</li><li>Being more present in friendship and family life</li></ul></div></section>
-<section class="section soft-section two-column"><div><p class="eyebrow">HOW THE WORK TAKES SHAPE</p><h2>Clarity. Practice.<br>Follow-through.</h2><p style="margin-top:24px">Coaching connects what you discover in conversation with what you do in daily life.</p></div><div class="steps"><article class="step"><div><h3>Name what needs to change.</h3><p>Explore your situation, what you want to change, and what a healthier relationship would look like to you.</p></div></article><article class="step"><div><h3>Understand the pattern.</h3><p>Look at the beliefs, habits, and reactions that influence how you connect. Identify the choices you can make differently.</p></div></article><article class="step"><div><h3>Put it into practice.</h3><p>Choose a practical next step: a conversation, a boundary, a listening practice, or a commitment you can follow through on.</p></div></article><article class="step"><div><h3>Review it. Adjust. Keep going.</h3><p>Review what happened, notice what helped, and adjust. Progress comes from practicing, reflecting, and trying again.</p></div></article></div></section>
-<section class="section coach-intro"><div class="coach-label"><span class="eyebrow">MEET THE PERSON BEHIND THE WORK</span><h2>Josh Barbee</h2><p>Relationship coaching for men.<br>Honest work. Practical steps.</p></div><div><h3>Your life sets the agenda.</h3><p>Steady &amp; True brings the focus back to your values, your choices, and the relationships you want to build. The work is collaborative, with room for honest reflection and practical action.</p><p>Bring your questions. Be straight about what’s happening. Start there.</p></div></section>
-<section class="section soft-section"><div class="faq"><p class="eyebrow">A FEW THINGS YOU MAY BE WONDERING</p><h2>Before you begin.</h2><details><summary>Do I need to be in a relationship?</summary><p>No. You can work on how you date, build friendships, connect with family, or prepare for a future relationship. The starting point is how you want to show up.</p></details><details><summary>Will coaching help me change my partner?</summary><p>The focus is on your own choices: how you communicate, listen, set boundaries, and follow through. Another person’s choices remain their own. Coaching does not promise a particular relationship outcome.</p></details><details><summary>Is coaching the same as therapy?</summary><p>Coaching focuses on goals, relationship skills, and everyday practice. It does not diagnose or treat mental health conditions and is not a substitute for therapy.</p></details><details><summary>What if talking about feelings doesn’t come naturally?</summary><p>That’s a valid starting point. You can begin with a specific situation and work toward words that feel honest to you. You don’t need to arrive with a particular vocabulary.</p></details><details><summary>How do I book, and what does it cost?</summary><p>Booking, session details, and pricing will be shared when scheduling opens. In the meantime, use the short reflection on the Start Here page to clarify what you’d like to work on.</p><a class="text-link" href="/start/">Prepare for your first conversation</a></details></div></section>${cta}`},
-start:{title:'Find Your Starting Point',description:'Take a private moment to reflect on your relationships and what you want to change. Prepare for coaching with Josh Barbee.',body:`
-<section class="page-hero"><p class="eyebrow">START HERE</p><h1>Take stock.<br><em>Pick your next step.</em></h1><p class="lead">What’s working? What keeps going wrong? What are you willing to do differently? Give yourself a few minutes to answer honestly.</p></section>
-<section class="section start-layout"><div><p class="eyebrow">BE STRAIGHT WITH YOURSELF</p><h2>What needs<br>to change?</h2><p style="margin-top:25px;color:var(--muted)">Take a few minutes to reflect on your relationships. You can keep your answers for yourself or bring them to a future conversation with Josh.</p><div class="launch-note"><h3>Booking opens soon.</h3><p>Coaching with Josh Barbee is launching soon. Booking details will appear here when scheduling opens.</p></div><p style="margin-top:28px;color:var(--muted)">Choose one thing you can act on this week. Keep it specific. Make it something you control.</p></div><form class="reflection" id="reflection-form"><h2>Your starting point</h2><p>Three questions. A few honest answers. Something to act on.</p><fieldset><legend>Where would you like to focus?</legend><div class="choices"><label class="choice"><input type="radio" name="focus" value="Communication" checked>Communication</label><label class="choice"><input type="radio" name="focus" value="Confidence">Confidence</label><label class="choice"><input type="radio" name="focus" value="Boundaries">Boundaries</label><label class="choice"><input type="radio" name="focus" value="Connection">Connection</label><label class="choice"><input type="radio" name="focus" value="Still figuring it out">Still figuring it out</label></div></fieldset><label class="field"><span>What keeps coming up in your relationships?</span><textarea name="pattern" rows="3" maxlength="3000" placeholder="A situation, a habit, or something you’ve noticed…"></textarea></label><label class="field"><span>What would you like to do differently?</span><textarea name="change" rows="3" maxlength="3000" placeholder="Think about how you want to show up…"></textarea></label><label class="field"><span>What’s one small step you could take this week?</span><textarea name="step" rows="3" maxlength="3000" placeholder="A conversation, a boundary, a moment to listen…"></textarea></label><div class="form-actions"><button class="button" type="submit">Save my reflection</button><button class="button outline" type="button" id="copy-reflection">Copy my notes</button></div><p class="privacy-note">For your eyes only. These answers stay in this page until you leave or reload. Saving downloads a text file to your device; nothing is sent to Josh.</p><p id="reflection-status" class="status" role="status" aria-live="polite"></p></form></section>`}
+  approach: {
+    title: 'The Philosophy',
+    description: 'The Christian convictions behind Steady & True. Headship, respect, discipline, and accountability before God. We start with the man.',
+    body: `
+      <section class="page-hero"><p class="eyebrow">WHAT I BELIEVE</p><h1>Same worth.<br><em>Different job.</em></h1><p class="lead">The Book sets the standard. The man answers for how he lives it.</p></section>
+
+      <section class="section philosophy">
+        <p class="eyebrow">THE STEADY &amp; TRUE PHILOSOPHY</p>
+        <h2>Put the weight<br>on your own back.</h2>
+        <div class="philosophy-copy"><p>A man who will not decide trains a woman to run him. Then he calls her controlling. We start with the man: his word, his week, his mouth. She can tell him the plan is wrong. She does not take the call because he got scared. Same worth. Different job. If he wants heat, he puts the weight back on his own back. We do not save wives. We build men a house can live under.</p></div>
+      </section>
+
+      <section class="section focus-section">
+        <div class="section-heading"><div><p class="eyebrow">THE STANDARD</p><h2>The office has a weight.</h2></div></div>
+        <div class="focus-grid">
+          <article><span class="number">01 / HEADSHIP</span><h3>You answer.</h3><p>This is Christian coaching. Headship is an office under God. You answer for the decisions, the example, and the work you left undone.</p></article>
+          <article><span class="number">02 / RESPECT</span><h3>Hear the truth.</h3><p>She can tell you the plan is wrong. Listen. Correct it when it needs correcting. Carrying responsibility means you can take correction.</p></article>
+          <article><span class="number">03 / DISCIPLINE</span><h3>Keep your word.</h3><p>Your house lives with your habits. Start with the promise you made, the job you put off, and the rule you keep breaking.</p></article>
+        </div>
+      </section>
+
+      <section class="section two-column">
+        <div><p class="eyebrow">THIS WEEK’S PRACTICE</p><h2>Say the small thing<br>the first time.</h2></div>
+        <div><h3>Late truth is cowardice.</h3><p>Name the thing while it is still small. Say what happened, what needs to change, and what you will do.</p><p>Plain words. No accusation. No speech you have rehearsed for six months.</p></div>
+      </section>
+
+      <section class="quote-band"><p>Listen. Decide.<br>Answer for it.</p><span>THE MAN GOES FIRST.</span></section>
+      ${cta}
+    `
+  },
+  coaching: {
+    title: 'How We Work',
+    description: 'One-to-one coaching with Josh Barbee. You talk, leave with one thing to do this week, and come back to account for it.',
+    body: `
+      <section class="page-hero"><p class="eyebrow">ONE-TO-ONE WITH JOSH BARBEE</p><h1>You talk.<br><em>Then you do the work.</em></h1><p class="lead">One thing this week. Next time, we check if you did it.</p></section>
+
+      <section class="section two-column">
+        <div><p class="eyebrow">HOW WE WORK</p><h2>No unlimited<br>processing.</h2></div>
+        <div class="steps">
+          <article class="step"><div><h3>You tell the truth.</h3><p>What happened? What did you do? What are you putting off? We start there.</p></div></article>
+          <article class="step"><div><h3>You leave with one thing.</h3><p>Something you will do this week. A clear action with a deadline.</p></div></article>
+          <article class="step"><div><h3>You come back and account.</h3><p>Did you do it? We look at what happened, correct what needs correcting, and set the next task.</p></div></article>
+        </div>
+      </section>
+
+      <section class="section focus-section">
+        <div class="section-heading"><div><p class="eyebrow">BRING YOUR ACTUAL WEEK</p><h2>Your mouth. Your body. Your word.</h2></div></div>
+        <div class="focus-grid">
+          <article><span class="number">01 / YOUR MOUTH</span><h3>Say it early.</h3><p>The truth you keep delaying. The temper you bring home. The apology you still owe.</p></article>
+          <article><span class="number">02 / YOUR BODY</span><h3>Keep a rule.</h3><p>Your sleep, your training, and the habits that decide what is left of you at the end of the day.</p></article>
+          <article><span class="number">03 / YOUR WORD</span><h3>Finish the job.</h3><p>The promise you made. The decision you keep handing off. The work your house is waiting on.</p></article>
+        </div>
+      </section>
+
+      <section class="section fit-note"><p class="eyebrow">WHO THIS IS NOT FOR</p><h2>The man goes first.</h2><p>This is not for men who want her to change first, men who want a vote instead of a head, or men who will not keep a small rule.</p></section>
+
+      <section class="section soft-section"><div class="faq"><p class="eyebrow">BEFORE WE TALK</p><h2>Know what you’re signing up for.</h2>
+        <details><summary>Is this Christian coaching?</summary><p>Yes. The Bible is the foundation. We work from the conviction that a man is accountable to God for how he leads his house.</p></details>
+        <details><summary>Do I have to be married?</summary><p>No. A man preparing to lead a house has work to do now. His word and his habits start before marriage.</p></details>
+        <details><summary>Will you work on changing my wife?</summary><p>I train the man first. We work on what you say, what you decide, and what you do. Her changing is not the condition for your obedience.</p></details>
+        <details><summary>Is this therapy?</summary><p>No. This is coaching built around action and accountability. It does not diagnose or treat mental health conditions.</p></details>
+        <details><summary>When can I book?</summary><p>Booking is not open yet. Session details and pricing will be posted here when it opens. For now, write down the one thing you will do this week.</p><a class="text-link" href="/start/">Write your commitment</a></details>
+      </div></section>
+      ${cta}
+    `
+  },
+  start: {
+    title: 'Start With the Man',
+    description: 'Write one commitment you will keep this week. A clear action, a deadline, and an honest account. Coaching with Josh Barbee.',
+    body: `
+      <section class="page-hero"><p class="eyebrow">START WITH THE MAN</p><h1>One week.<br><em>Keep your word.</em></h1><p class="lead">Put one thing on paper. Make it small enough to do and clear enough to check.</p></section>
+
+      <section class="section start-layout">
+        <div><p class="eyebrow">YOUR FIRST ASSIGNMENT</p><h2>Name the work.<br>Set the day.</h2><p style="margin-top:25px;color:var(--muted)">Choose something you control. Write what you will do and when. At the end of the week, answer one question: did you do it?</p><div class="launch-note"><h3>Booking opens soon.</h3><p>Josh’s booking details and session information will appear here when scheduling opens.</p></div></div>
+        <form class="reflection" id="reflection-form">
+          <h2>This week’s commitment</h2><p>Be specific. Keep your copy. Do the thing.</p>
+          <fieldset><legend>Where does the work start?</legend><div class="choices">
+            <label class="choice"><input type="radio" name="focus" value="My mouth" checked>My mouth</label>
+            <label class="choice"><input type="radio" name="focus" value="My body">My body</label>
+            <label class="choice"><input type="radio" name="focus" value="My word">My word</label>
+            <label class="choice"><input type="radio" name="focus" value="My house">My house</label>
+            <label class="choice"><input type="radio" name="focus" value="Fatherhood">Fatherhood</label>
+          </div></fieldset>
+          <label class="field"><span>What have you been putting off?</span><textarea name="pattern" rows="3" maxlength="3000" placeholder="Name the conversation, decision, or unfinished job."></textarea></label>
+          <label class="field"><span>What will you do this week, and by when?</span><textarea name="change" rows="3" maxlength="3000" placeholder="One action. A day and time."></textarea></label>
+          <label class="field"><span>How will you account for it?</span><textarea name="step" rows="3" maxlength="3000" placeholder="What will show it is done? Who will you tell?"></textarea></label>
+          <div class="form-actions"><button class="button" type="submit">Save my commitment</button><button class="button outline" type="button" id="copy-reflection">Copy my commitment</button></div>
+          <p class="privacy-note">This stays on this page until you leave or reload. Saving downloads a text file to your device. Nothing is sent to Josh.</p><p id="reflection-status" class="status" role="status" aria-live="polite"></p>
+        </form>
+      </section>
+    `
+  }
 };
