@@ -2,7 +2,7 @@
 
 A four-page relationship coaching website for Josh Barbee.
 
-**Brand line:** Strong in yourself. Better together.
+**Brand line:** Stand firm. Show up.
 
 ## Preview and editing
 
